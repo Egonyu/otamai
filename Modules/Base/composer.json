@@ -1,0 +1,26 @@
+{
+    "name": "ci/base",
+    "description": "The CynoInfotech Base Module.",
+    "authors": [
+        {
+            "name": "Cynoinfotech Team",
+            "email": "info@cynoinfotech.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.19",
+        "maatwebsite/laravel-sidebar": "^2.1",
+        "algolia/algoliasearch-client-php": "^2.5.1",
+        "laravel/scout": "^7.1",
+        "mcamara/laravel-localization": "^1.3",
+        "predis/predis": "^1.1",
+        "tightenco/ziggy": "^0.6",
+        "bonecms/laravel-captcha": "^2.1",
+        "spatie/once": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Base\\": ""
+        }
+    }
+}

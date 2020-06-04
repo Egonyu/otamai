@@ -1,0 +1,77 @@
+@import '~bootstrap/dist/css/bootstrap';
+@import "./font-awesome";
+@import "./flaticon";
+@import "./simple-line-icons";
+@import '~nprogress/nprogress';
+@import '~select2/dist/css/select2';
+
+@import "./variables";
+@import "./outlinefocus";
+@import "./typography";
+@import "./opacity";
+
+//layouts
+@import "./layouts";
+@import "./layouts-colors";
+
+//components
+@import "./components";
+
+//plugins
+@import "./plugins";
+
+//responsive
+@import "./responsive";
+
+//Background
+@import "./background";
+
+.ci-download-box {
+    background: #f1f1f1;
+    box-shadow: 2px 6px 15px 0px rgba(33, 31, 31,0.5); 
+}
+.avatar-holder { 
+    position: relative;
+    border: 1px solid #d9d9d9;
+    background: #ffffff;
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    overflow: hidden !important;
+
+    > {
+        i {
+            position: absolute;
+            font-size: 24px;
+            color: #d9d9d9;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            max-height: 100%;
+            max-width: 100%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+.select2-selection__rendered {
+    line-height: 38px !important;
+}
+.select2-selection--multiple .select2-selection__rendered {
+    line-height: 30px !important;
+}
+.select2-container .select2-selection--single {
+    height: 40px !important;
+}
+.select2-selection__arrow {
+    height: 39px !important;
+}
+.select2-container
+{
+    width: inherit !important;
+}
