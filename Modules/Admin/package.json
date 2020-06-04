@@ -5,7 +5,7 @@
         "datatables.net": "^1.10.19",
         "datatables.net-bs": "^1.10.19",
         "font-awesome": "^4.7.0",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "lodash": "^4.17.15",
         "popper.js": "^1.15.0",
         "tinymce": "^5.0.14",
